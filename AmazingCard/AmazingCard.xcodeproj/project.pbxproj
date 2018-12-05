@@ -1,0 +1,747 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3E2CC1E321B814F900273EC3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E2CC1E221B814F900273EC3 /* AppDelegate.m */; };
+		3E2CC1EB21B814F900273EC3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E2CC1EA21B814F900273EC3 /* Assets.xcassets */; };
+		3E2CC1EE21B814F900273EC3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E2CC1EC21B814F900273EC3 /* LaunchScreen.storyboard */; };
+		3E2CC1F121B814F900273EC3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E2CC1F021B814F900273EC3 /* main.m */; };
+		3E2CC1FB21B814F900273EC3 /* AmazingCardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E2CC1FA21B814F900273EC3 /* AmazingCardTests.m */; };
+		3E2CC20621B814F900273EC3 /* AmazingCardUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E2CC20521B814F900273EC3 /* AmazingCardUITests.m */; };
+		3E2CC21F21B815A700273EC3 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E2CC21521B815A700273EC3 /* BaseViewController.m */; };
+		3E2CC22021B815A700273EC3 /* BaseTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E2CC21621B815A700273EC3 /* BaseTableView.m */; };
+		3E2CC22121B815A700273EC3 /* ACHomeVCTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E2CC21C21B815A700273EC3 /* ACHomeVCTableViewCell.m */; };
+		3E2CC22221B815A700273EC3 /* ACHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E2CC21E21B815A700273EC3 /* ACHomeViewController.m */; };
+		3E2CC22B21B8196300273EC3 /* ACDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E2CC22A21B8196300273EC3 /* ACDevice.m */; };
+		3EA58EEC21B824D8006B4951 /* ACEditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EA58EEB21B824D8006B4951 /* ACEditViewController.m */; };
+		638DF65C78FD39557CD11C1B /* libPods-AmazingCard.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19B80172F905FA030FCBA7B3 /* libPods-AmazingCard.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3E2CC1F721B814F900273EC3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3E2CC1D621B814F900273EC3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3E2CC1DD21B814F900273EC3;
+			remoteInfo = AmazingCard;
+		};
+		3E2CC20221B814F900273EC3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3E2CC1D621B814F900273EC3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3E2CC1DD21B814F900273EC3;
+			remoteInfo = AmazingCard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		19B80172F905FA030FCBA7B3 /* libPods-AmazingCard.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AmazingCard.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E2CC1DE21B814F900273EC3 /* AmazingCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AmazingCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E2CC1E121B814F900273EC3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3E2CC1E221B814F900273EC3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3E2CC1EA21B814F900273EC3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3E2CC1ED21B814F900273EC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3E2CC1EF21B814F900273EC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E2CC1F021B814F900273EC3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3E2CC1F621B814F900273EC3 /* AmazingCardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AmazingCardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E2CC1FA21B814F900273EC3 /* AmazingCardTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AmazingCardTests.m; sourceTree = "<group>"; };
+		3E2CC1FC21B814F900273EC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E2CC20121B814F900273EC3 /* AmazingCardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AmazingCardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E2CC20521B814F900273EC3 /* AmazingCardUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AmazingCardUITests.m; sourceTree = "<group>"; };
+		3E2CC20721B814F900273EC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E2CC21521B815A700273EC3 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		3E2CC21621B815A700273EC3 /* BaseTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTableView.m; sourceTree = "<group>"; };
+		3E2CC21721B815A700273EC3 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		3E2CC21821B815A700273EC3 /* BaseTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTableView.h; sourceTree = "<group>"; };
+		3E2CC21B21B815A700273EC3 /* ACHomeVCTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACHomeVCTableViewCell.h; sourceTree = "<group>"; };
+		3E2CC21C21B815A700273EC3 /* ACHomeVCTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ACHomeVCTableViewCell.m; sourceTree = "<group>"; };
+		3E2CC21D21B815A700273EC3 /* ACHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACHomeViewController.h; sourceTree = "<group>"; };
+		3E2CC21E21B815A700273EC3 /* ACHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ACHomeViewController.m; sourceTree = "<group>"; };
+		3E2CC22521B816CA00273EC3 /* AmazingCard.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AmazingCard.pch; sourceTree = "<group>"; };
+		3E2CC22721B8184000273EC3 /* Common.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
+		3E2CC22921B8196300273EC3 /* ACDevice.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ACDevice.h; sourceTree = "<group>"; };
+		3E2CC22A21B8196300273EC3 /* ACDevice.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ACDevice.m; sourceTree = "<group>"; };
+		3E2CC22C21B81B7700273EC3 /* BFENumbers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BFENumbers.h; sourceTree = "<group>"; };
+		3EA58EEA21B824D8006B4951 /* ACEditViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ACEditViewController.h; sourceTree = "<group>"; };
+		3EA58EEB21B824D8006B4951 /* ACEditViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ACEditViewController.m; sourceTree = "<group>"; };
+		D077DB738113BA6CBAA71314 /* Pods-AmazingCard.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AmazingCard.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AmazingCard/Pods-AmazingCard.debug.xcconfig"; sourceTree = "<group>"; };
+		DE7F8D1CA6B65E7FB055011A /* Pods-AmazingCard.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AmazingCard.release.xcconfig"; path = "Pods/Target Support Files/Pods-AmazingCard/Pods-AmazingCard.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3E2CC1DB21B814F900273EC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				638DF65C78FD39557CD11C1B /* libPods-AmazingCard.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E2CC1F321B814F900273EC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E2CC1FE21B814F900273EC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1DF28D7E2B35F9BA4D45C9A0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D077DB738113BA6CBAA71314 /* Pods-AmazingCard.debug.xcconfig */,
+				DE7F8D1CA6B65E7FB055011A /* Pods-AmazingCard.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3E2CC1D521B814F900273EC3 = {
+			isa = PBXGroup;
+			children = (
+				3E2CC1E021B814F900273EC3 /* AmazingCard */,
+				3E2CC1F921B814F900273EC3 /* AmazingCardTests */,
+				3E2CC20421B814F900273EC3 /* AmazingCardUITests */,
+				3E2CC1DF21B814F900273EC3 /* Products */,
+				1DF28D7E2B35F9BA4D45C9A0 /* Pods */,
+				7103CD51E0D2DE03B7F271A8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3E2CC1DF21B814F900273EC3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3E2CC1DE21B814F900273EC3 /* AmazingCard.app */,
+				3E2CC1F621B814F900273EC3 /* AmazingCardTests.xctest */,
+				3E2CC20121B814F900273EC3 /* AmazingCardUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3E2CC1E021B814F900273EC3 /* AmazingCard */ = {
+			isa = PBXGroup;
+			children = (
+				3E2CC22821B8193B00273EC3 /* Common */,
+				3E2CC22621B8181F00273EC3 /* HeaderFiles */,
+				3E2CC21421B815A700273EC3 /* BaseClass */,
+				3EA58EE921B824AF006B4951 /* Edit */,
+				3E2CC21921B815A700273EC3 /* Home */,
+				3E2CC1E121B814F900273EC3 /* AppDelegate.h */,
+				3E2CC1E221B814F900273EC3 /* AppDelegate.m */,
+				3E2CC21321B8150900273EC3 /* Supporting Files */,
+			);
+			path = AmazingCard;
+			sourceTree = "<group>";
+		};
+		3E2CC1F921B814F900273EC3 /* AmazingCardTests */ = {
+			isa = PBXGroup;
+			children = (
+				3E2CC1FA21B814F900273EC3 /* AmazingCardTests.m */,
+				3E2CC1FC21B814F900273EC3 /* Info.plist */,
+			);
+			path = AmazingCardTests;
+			sourceTree = "<group>";
+		};
+		3E2CC20421B814F900273EC3 /* AmazingCardUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3E2CC20521B814F900273EC3 /* AmazingCardUITests.m */,
+				3E2CC20721B814F900273EC3 /* Info.plist */,
+			);
+			path = AmazingCardUITests;
+			sourceTree = "<group>";
+		};
+		3E2CC21321B8150900273EC3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3E2CC1EA21B814F900273EC3 /* Assets.xcassets */,
+				3E2CC1EC21B814F900273EC3 /* LaunchScreen.storyboard */,
+				3E2CC1EF21B814F900273EC3 /* Info.plist */,
+				3E2CC1F021B814F900273EC3 /* main.m */,
+				3E2CC22521B816CA00273EC3 /* AmazingCard.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3E2CC21421B815A700273EC3 /* BaseClass */ = {
+			isa = PBXGroup;
+			children = (
+				3E2CC21721B815A700273EC3 /* BaseViewController.h */,
+				3E2CC21521B815A700273EC3 /* BaseViewController.m */,
+				3E2CC21821B815A700273EC3 /* BaseTableView.h */,
+				3E2CC21621B815A700273EC3 /* BaseTableView.m */,
+			);
+			path = BaseClass;
+			sourceTree = "<group>";
+		};
+		3E2CC21921B815A700273EC3 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				3E2CC21A21B815A700273EC3 /* Unit */,
+				3E2CC21D21B815A700273EC3 /* ACHomeViewController.h */,
+				3E2CC21E21B815A700273EC3 /* ACHomeViewController.m */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		3E2CC21A21B815A700273EC3 /* Unit */ = {
+			isa = PBXGroup;
+			children = (
+				3E2CC21B21B815A700273EC3 /* ACHomeVCTableViewCell.h */,
+				3E2CC21C21B815A700273EC3 /* ACHomeVCTableViewCell.m */,
+			);
+			path = Unit;
+			sourceTree = "<group>";
+		};
+		3E2CC22621B8181F00273EC3 /* HeaderFiles */ = {
+			isa = PBXGroup;
+			children = (
+				3E2CC22C21B81B7700273EC3 /* BFENumbers.h */,
+				3E2CC22721B8184000273EC3 /* Common.h */,
+			);
+			path = HeaderFiles;
+			sourceTree = "<group>";
+		};
+		3E2CC22821B8193B00273EC3 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				3E2CC22921B8196300273EC3 /* ACDevice.h */,
+				3E2CC22A21B8196300273EC3 /* ACDevice.m */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		3EA58EE921B824AF006B4951 /* Edit */ = {
+			isa = PBXGroup;
+			children = (
+				3EA58EEA21B824D8006B4951 /* ACEditViewController.h */,
+				3EA58EEB21B824D8006B4951 /* ACEditViewController.m */,
+			);
+			path = Edit;
+			sourceTree = "<group>";
+		};
+		7103CD51E0D2DE03B7F271A8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				19B80172F905FA030FCBA7B3 /* libPods-AmazingCard.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3E2CC1DD21B814F900273EC3 /* AmazingCard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E2CC20A21B814F900273EC3 /* Build configuration list for PBXNativeTarget "AmazingCard" */;
+			buildPhases = (
+				C3232585403F62EED41E64EF /* [CP] Check Pods Manifest.lock */,
+				3E2CC1DA21B814F900273EC3 /* Sources */,
+				3E2CC1DB21B814F900273EC3 /* Frameworks */,
+				3E2CC1DC21B814F900273EC3 /* Resources */,
+				F689C0024E6529B8B07859DD /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AmazingCard;
+			productName = AmazingCard;
+			productReference = 3E2CC1DE21B814F900273EC3 /* AmazingCard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3E2CC1F521B814F900273EC3 /* AmazingCardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E2CC20D21B814F900273EC3 /* Build configuration list for PBXNativeTarget "AmazingCardTests" */;
+			buildPhases = (
+				3E2CC1F221B814F900273EC3 /* Sources */,
+				3E2CC1F321B814F900273EC3 /* Frameworks */,
+				3E2CC1F421B814F900273EC3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3E2CC1F821B814F900273EC3 /* PBXTargetDependency */,
+			);
+			name = AmazingCardTests;
+			productName = AmazingCardTests;
+			productReference = 3E2CC1F621B814F900273EC3 /* AmazingCardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3E2CC20021B814F900273EC3 /* AmazingCardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E2CC21021B814F900273EC3 /* Build configuration list for PBXNativeTarget "AmazingCardUITests" */;
+			buildPhases = (
+				3E2CC1FD21B814F900273EC3 /* Sources */,
+				3E2CC1FE21B814F900273EC3 /* Frameworks */,
+				3E2CC1FF21B814F900273EC3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3E2CC20321B814F900273EC3 /* PBXTargetDependency */,
+			);
+			name = AmazingCardUITests;
+			productName = AmazingCardUITests;
+			productReference = 3E2CC20121B814F900273EC3 /* AmazingCardUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3E2CC1D621B814F900273EC3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = A.C;
+				TargetAttributes = {
+					3E2CC1DD21B814F900273EC3 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					3E2CC1F521B814F900273EC3 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 3E2CC1DD21B814F900273EC3;
+					};
+					3E2CC20021B814F900273EC3 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 3E2CC1DD21B814F900273EC3;
+					};
+				};
+			};
+			buildConfigurationList = 3E2CC1D921B814F900273EC3 /* Build configuration list for PBXProject "AmazingCard" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3E2CC1D521B814F900273EC3;
+			productRefGroup = 3E2CC1DF21B814F900273EC3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3E2CC1DD21B814F900273EC3 /* AmazingCard */,
+				3E2CC1F521B814F900273EC3 /* AmazingCardTests */,
+				3E2CC20021B814F900273EC3 /* AmazingCardUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3E2CC1DC21B814F900273EC3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E2CC1EE21B814F900273EC3 /* LaunchScreen.storyboard in Resources */,
+				3E2CC1EB21B814F900273EC3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E2CC1F421B814F900273EC3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E2CC1FF21B814F900273EC3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C3232585403F62EED41E64EF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AmazingCard-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F689C0024E6529B8B07859DD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-AmazingCard/Pods-AmazingCard-resources.sh",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/MWPhotoBrowser/MWPhotoBrowser.bundle",
+				"${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle",
+				"${PODS_ROOT}/SWSnapshotStackView/Screenshot.png",
+				"${PODS_ROOT}/SWSnapshotStackView/ScreenshotDemo.png",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MWPhotoBrowser.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SVProgressHUD.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Screenshot.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ScreenshotDemo.png",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AmazingCard/Pods-AmazingCard-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3E2CC1DA21B814F900273EC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E2CC22021B815A700273EC3 /* BaseTableView.m in Sources */,
+				3E2CC1F121B814F900273EC3 /* main.m in Sources */,
+				3EA58EEC21B824D8006B4951 /* ACEditViewController.m in Sources */,
+				3E2CC21F21B815A700273EC3 /* BaseViewController.m in Sources */,
+				3E2CC1E321B814F900273EC3 /* AppDelegate.m in Sources */,
+				3E2CC22121B815A700273EC3 /* ACHomeVCTableViewCell.m in Sources */,
+				3E2CC22B21B8196300273EC3 /* ACDevice.m in Sources */,
+				3E2CC22221B815A700273EC3 /* ACHomeViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E2CC1F221B814F900273EC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E2CC1FB21B814F900273EC3 /* AmazingCardTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E2CC1FD21B814F900273EC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E2CC20621B814F900273EC3 /* AmazingCardUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3E2CC1F821B814F900273EC3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3E2CC1DD21B814F900273EC3 /* AmazingCard */;
+			targetProxy = 3E2CC1F721B814F900273EC3 /* PBXContainerItemProxy */;
+		};
+		3E2CC20321B814F900273EC3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3E2CC1DD21B814F900273EC3 /* AmazingCard */;
+			targetProxy = 3E2CC20221B814F900273EC3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3E2CC1EC21B814F900273EC3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3E2CC1ED21B814F900273EC3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3E2CC20821B814F900273EC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3E2CC20921B814F900273EC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3E2CC20B21B814F900273EC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D077DB738113BA6CBAA71314 /* Pods-AmazingCard.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = NO;
+				CLANG_WARN_STRICT_PROTOTYPES = NO;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X4AW54WQH8;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/AmazingCard/AmazingCard.pch";
+				INFOPLIST_FILE = AmazingCard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.boxfishedu.student.AmazingCard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3E2CC20C21B814F900273EC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE7F8D1CA6B65E7FB055011A /* Pods-AmazingCard.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = NO;
+				CLANG_WARN_STRICT_PROTOTYPES = NO;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X4AW54WQH8;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/AmazingCard/AmazingCard.pch";
+				INFOPLIST_FILE = AmazingCard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.boxfishedu.student.AmazingCard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3E2CC20E21B814F900273EC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X4AW54WQH8;
+				INFOPLIST_FILE = AmazingCardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.boxfishedu.student.AmazingCardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AmazingCard.app/AmazingCard";
+			};
+			name = Debug;
+		};
+		3E2CC20F21B814F900273EC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X4AW54WQH8;
+				INFOPLIST_FILE = AmazingCardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.boxfishedu.student.AmazingCardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AmazingCard.app/AmazingCard";
+			};
+			name = Release;
+		};
+		3E2CC21121B814F900273EC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X4AW54WQH8;
+				INFOPLIST_FILE = AmazingCardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.boxfishedu.student.AmazingCardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AmazingCard;
+			};
+			name = Debug;
+		};
+		3E2CC21221B814F900273EC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X4AW54WQH8;
+				INFOPLIST_FILE = AmazingCardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.boxfishedu.student.AmazingCardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AmazingCard;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3E2CC1D921B814F900273EC3 /* Build configuration list for PBXProject "AmazingCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E2CC20821B814F900273EC3 /* Debug */,
+				3E2CC20921B814F900273EC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3E2CC20A21B814F900273EC3 /* Build configuration list for PBXNativeTarget "AmazingCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E2CC20B21B814F900273EC3 /* Debug */,
+				3E2CC20C21B814F900273EC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3E2CC20D21B814F900273EC3 /* Build configuration list for PBXNativeTarget "AmazingCardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E2CC20E21B814F900273EC3 /* Debug */,
+				3E2CC20F21B814F900273EC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3E2CC21021B814F900273EC3 /* Build configuration list for PBXNativeTarget "AmazingCardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E2CC21121B814F900273EC3 /* Debug */,
+				3E2CC21221B814F900273EC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3E2CC1D621B814F900273EC3 /* Project object */;
+}

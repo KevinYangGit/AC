@@ -1,0 +1,1 @@
+../../../SWSnapshotStackView/SWSnapshotStackView.h

@@ -1,0 +1,73 @@
+# Uncomment this line to define a global platform for your project
+platform :ios, '8.0'
+source 'https://github.com/CocoaPods/Specs.git'
+source 'https://gitlab.boxfish.cn/iOS/Specs.git'
+
+inhibit_all_warnings!
+
+def boxfishCommonPods
+
+    pod 'AFNetworking', '~> 3.0'    
+    pod 'MBProgressHUD', '~> 0.9'
+    pod 'Fabric', '~> 1.7.0'
+    pod 'Crashlytics', '~> 3.9.0'
+
+    pod 'KVOController', '~> 1.2.0'
+
+    pod 'FMDB', '~> 2.7'
+    pod 'SDWebImage', '~> 3.7'
+    
+    pod 'Colours', '~> 5.13.0'
+    pod 'CMPopTipView', '~> 2.3.0'
+    pod 'SBJson4', '~> 4.0.1'
+    pod 'CXAlertView', '~> 1.1.0'
+    pod 'TDBadgedCell', '~> 2.6'
+    pod 'SVPullToRefresh', '~> 0.4.1'
+    pod 'SWSnapshotStackView', '~> 0.0.1'
+    
+    pod 'SSZipArchive', '2.1.4'
+    pod 'DTCoreText', '~> 1.6.14'
+    pod 'FXImageView', '~> 1.3.5'
+    pod 'CocoaLumberjack', '~> 3.3.0'
+    pod 'YYKit', '~> 1.0.9’
+    pod 'Aspects', '~> 1.4.1'
+
+    pod 'THProgressView', '~> 1.0'
+
+    pod 'SWTableViewCell', '~> 0.3.7'
+    pod 'PNChart', :git => 'https://github.com/boxfish-project/PNChart.git'
+    pod 'Masonry', '~> 1.1.0'
+    pod 'mp3lame-for-ios', '~> 0.1.1'
+    pod 'pop', '~> 1.0.9'
+    pod 'SVProgressHUD', '~> 2.2.0'
+    
+    pod 'MWPhotoBrowser', '~> 2.1.2'
+
+    #极光推送
+    pod 'JPush' , '~> 3.0.6'
+    
+    #友盟
+    pod 'UMCCommon'
+    pod 'UMCAnalytics'
+    pod 'UMCShare/Social/WeChat', '~> 6.9'
+    pod 'UMCShare/Social/QQ', '~> 6.9'
+    pod 'UMCShare/Social/AlipayShare', '~> 6.9'
+    
+    #InAppPurchase封装
+    pod 'IAPHelper'
+    
+    #oss
+    pod 'YLProgressBar', '~> 3.10.1'
+    pod 'AliyunOSSiOS', '2.6.3'
+
+    pod 'MJRefresh', '~> 3.0.0'
+    pod 'MJExtension', '~> 3.0.0'
+
+end
+
+
+target 'AmazingCard' do
+    boxfishCommonPods
+end
+
+

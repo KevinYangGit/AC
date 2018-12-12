@@ -8,6 +8,13 @@
 
 #import <UIKit/UIKit.h>
 
+static CGFloat offset = 20;
+
 @interface ACEditViewController : UIViewController
+
+@property (nonatomic, strong) UIImageView *imageView;
+@property (nonatomic, strong) UIView *clipView;
+@property (nonatomic, assign) CGPoint startP;
+@property (nonatomic, assign) CGPoint curP;
 
 @end

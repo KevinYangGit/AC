@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3E1238B721BFCF1F00E095A3 /* ACEditViewController+Brush.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E1238B621BFCF1F00E095A3 /* ACEditViewController+Brush.m */; };
+		3E1238BA21BFCF5500E095A3 /* ACEditViewController+Circle.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E1238B921BFCF5500E095A3 /* ACEditViewController+Circle.m */; };
 		3E2CC1E321B814F900273EC3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E2CC1E221B814F900273EC3 /* AppDelegate.m */; };
 		3E2CC1EB21B814F900273EC3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E2CC1EA21B814F900273EC3 /* Assets.xcassets */; };
 		3E2CC1F121B814F900273EC3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E2CC1F021B814F900273EC3 /* main.m */; };
@@ -41,6 +43,10 @@
 
 /* Begin PBXFileReference section */
 		19B80172F905FA030FCBA7B3 /* libPods-AmazingCard.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AmazingCard.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E1238B521BFCF1F00E095A3 /* ACEditViewController+Brush.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ACEditViewController+Brush.h"; sourceTree = "<group>"; };
+		3E1238B621BFCF1F00E095A3 /* ACEditViewController+Brush.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "ACEditViewController+Brush.m"; sourceTree = "<group>"; };
+		3E1238B821BFCF5500E095A3 /* ACEditViewController+Circle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ACEditViewController+Circle.h"; sourceTree = "<group>"; };
+		3E1238B921BFCF5500E095A3 /* ACEditViewController+Circle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "ACEditViewController+Circle.m"; sourceTree = "<group>"; };
 		3E2CC1DE21B814F900273EC3 /* AmazingCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AmazingCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E2CC1E121B814F900273EC3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3E2CC1E221B814F900273EC3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -227,6 +233,10 @@
 			children = (
 				3EA58EEA21B824D8006B4951 /* ACEditViewController.h */,
 				3EA58EEB21B824D8006B4951 /* ACEditViewController.m */,
+				3E1238B821BFCF5500E095A3 /* ACEditViewController+Circle.h */,
+				3E1238B921BFCF5500E095A3 /* ACEditViewController+Circle.m */,
+				3E1238B521BFCF1F00E095A3 /* ACEditViewController+Brush.h */,
+				3E1238B621BFCF1F00E095A3 /* ACEditViewController+Brush.m */,
 				3EA1403721BEAE3C0040B488 /* amazingCard.png */,
 			);
 			path = Edit;
@@ -421,8 +431,10 @@
 				3E2CC22021B815A700273EC3 /* BaseTableView.m in Sources */,
 				3E2CC1F121B814F900273EC3 /* main.m in Sources */,
 				3EA58EEC21B824D8006B4951 /* ACEditViewController.m in Sources */,
+				3E1238B721BFCF1F00E095A3 /* ACEditViewController+Brush.m in Sources */,
 				3E2CC21F21B815A700273EC3 /* BaseViewController.m in Sources */,
 				3E2CC1E321B814F900273EC3 /* AppDelegate.m in Sources */,
+				3E1238BA21BFCF5500E095A3 /* ACEditViewController+Circle.m in Sources */,
 				3E2CC22121B815A700273EC3 /* ACHomeVCTableViewCell.m in Sources */,
 				3E2CC22B21B8196300273EC3 /* ACDevice.m in Sources */,
 				3E2CC22221B815A700273EC3 /* ACHomeViewController.m in Sources */,

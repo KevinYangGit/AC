@@ -13,17 +13,31 @@
 
 @interface ACEditViewController ()
 
-
+@property (nonatomic, assign) ACEditViewControllerType type;
 
 @end
 
 @implementation ACEditViewController
 
+- (instancetype)initWithType:(ACEditViewControllerType)type
+{
+    self = [super init];
+    if (self) {
+        self.type = type;
+    }
+    return self;
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor whiteColor];
     
-    [self circle];
+    if (self.type == ACEditViewControllerType_Circle) {
+        [self circle];
+    }
+    if (self.type == ACEditViewControllerType_Brush) {
+        [self brush];
+    }
 }
 
 

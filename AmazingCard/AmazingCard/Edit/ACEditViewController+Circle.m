@@ -86,29 +86,20 @@
             if (p.y > self.clipView.center.y) {
                 self.startP = CGPointMake(p.x, self.startP.y);
                 self.curP = CGPointMake(self.curP.x, p.y);
-                CGFloat offsetX = self.curP.x - self.startP.x;
-                CGFloat offsetY = self.curP.y - self.startP.y;
-                self.clipView.frame = CGRectMake(self.startP.x, self.startP.y, offsetX, offsetY);
             } else {
                 self.startP = p;
-                CGFloat offsetX = self.curP.x - self.startP.x;
-                CGFloat offsetY = self.curP.y - self.startP.y;
-                self.clipView.frame = CGRectMake(self.startP.x, self.startP.y, offsetX, offsetY);
             }
         } else {
             if (p.y < self.clipView.center.y) {
                 self.startP = CGPointMake(self.startP.x, p.y);
                 self.curP = CGPointMake(p.x, self.curP.y);
-                CGFloat offsetX = self.curP.x - self.startP.x;
-                CGFloat offsetY = self.curP.y - self.startP.y;
-                self.clipView.frame = CGRectMake(self.startP.x, self.startP.y, offsetX, offsetY);
             } else {
                 self.curP = p;
-                CGFloat offsetX = self.curP.x - self.startP.x;
-                CGFloat offsetY = self.curP.y - self.startP.y;
-                self.clipView.frame = CGRectMake(self.startP.x, self.startP.y, offsetX, offsetY);
             }
         }
+        CGFloat offsetX = self.curP.x - self.startP.x;
+        CGFloat offsetY = self.curP.y - self.startP.y;
+        self.clipView.frame = CGRectMake(self.startP.x, self.startP.y, offsetX, offsetY);
     }
     self.clipView.hidden = NO;
 }
@@ -120,22 +111,22 @@
     self.curP = CGPointZero;
     
     CGFloat imageCurWidth = self.view.bounds.size.width;
-    CGFloat imageCurHeight = imageCurWidth * self.imageView.image.size.height /self.imageView.image.size.width;
+    CGFloat imageCurHeight = imageCurWidth * (self.imageView.image.size.height / self.imageView.image.size.width);
     
     CGFloat curClipY = clipViewframe.origin.y - (self.view.bounds.size.height - imageCurHeight) / 2.0;
     CGFloat curClipX = clipViewframe.origin.x;
     
-    CGSize size = self.imageView.image.size;
-    CGSize viewSize = self.view.frame.size;
-    CGFloat scale = viewSize.width / size.width * size.height < viewSize.height ? viewSize.width / size.width : viewSize.height / size.height;
-    CGFloat clipY = curClipY / scale;
-    CGFloat clipX = curClipX / scale;
-    CGFloat clipW = clipViewframe.size.width / scale;
-    CGFloat clipH = clipViewframe.size.height / scale;
+    CGFloat s = scale(self.view, self.imageView);
+    CGFloat clipY = curClipY / s;
+    CGFloat clipX = curClipX / s;
+    CGFloat clipW = clipViewframe.size.width / s;
+    CGFloat clipH = clipViewframe.size.height / s;
     CGRect clipFrame = CGRectMake(clipX, clipY, clipW, clipH);
     
     UIImage *image = [self getImageFromImage:self.imageView.image rect:clipFrame];
-    self.imageView.image = image;
+//    self.imageView.image = image;
+    ACResultViewController *resultVC = [[ACResultViewController alloc] initWithImage:image];
+    [self.navigationController pushViewController:resultVC animated:YES];
 }
 
 -(UIImage *)getImageFromImage:(UIImage *)image rect:(CGRect)rect {

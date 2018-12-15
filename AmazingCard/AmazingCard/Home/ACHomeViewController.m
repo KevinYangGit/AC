@@ -42,17 +42,21 @@
 }
     
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
+    
+    ACEditViewControllerType type = indexPath.row % 2 == 0 ? ACEditViewControllerType_Circle : ACEditViewControllerType_Brush;
     ACHomeVCTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"ACHomeVCTableViewCell"];
     if (!cell) {
         cell = [[ACHomeVCTableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"ACHomeVCTableViewCell"];
         cell.accessoryType = UITableViewCellAccessoryNone;
         cell.selectionStyle = UITableViewCellSelectionStyleNone;
         [cell setContainterTapAction:^{
-            ACEditViewController *editVC = [[ACEditViewController alloc] init];
+            ACEditViewController *editVC = [[ACEditViewController alloc] initWithType:type];
+            
             [self.navigationController pushViewController:editVC animated:YES];
         }];
     }
-    
+    cell.textLabel.text = type == ACEditViewControllerType_Circle ? @"circle" : @"btush";
+
     return cell;
 }
     

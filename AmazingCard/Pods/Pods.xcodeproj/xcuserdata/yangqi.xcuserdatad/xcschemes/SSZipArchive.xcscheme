@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "759E481499B9E6DA99E1FC8ED6BC8695"
+               BlueprintIdentifier = "2F7B01FA6D5872143A3649AF26B2EAAC"
                BlueprintName = "SSZipArchive"
                ReferencedContainer = "container:Pods.xcodeproj"
                BuildableName = "libSSZipArchive.a">

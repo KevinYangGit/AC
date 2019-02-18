@@ -19,6 +19,10 @@
 		3E2CC22121B815A700273EC3 /* ACHomeVCTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E2CC21C21B815A700273EC3 /* ACHomeVCTableViewCell.m */; };
 		3E2CC22221B815A700273EC3 /* ACHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E2CC21E21B815A700273EC3 /* ACHomeViewController.m */; };
 		3E2CC22B21B8196300273EC3 /* ACDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E2CC22A21B8196300273EC3 /* ACDevice.m */; };
+		3E446C29221AA0AA0083079E /* ShareViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E446C28221AA0AA0083079E /* ShareViewController.m */; };
+		3E446C2C221AA0AA0083079E /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E446C2A221AA0AA0083079E /* MainInterface.storyboard */; };
+		3E446C30221AA0AA0083079E /* AmazingCardShareExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 3E446C25221AA0AA0083079E /* AmazingCardShareExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		3E446C39221AB2400083079E /* ImagePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E446C38221AB2400083079E /* ImagePicker.m */; };
 		3EA1403821BEAE3C0040B488 /* amazingCard.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EA1403721BEAE3C0040B488 /* amazingCard.png */; };
 		3EA58EEC21B824D8006B4951 /* ACEditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EA58EEB21B824D8006B4951 /* ACEditViewController.m */; };
 		3EEEFBEB21C79E1E00E29B0E /* ACEditViewController+CTX.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EEEFBEA21C79E1E00E29B0E /* ACEditViewController+CTX.m */; };
@@ -43,7 +47,28 @@
 			remoteGlobalIDString = 3E2CC1DD21B814F900273EC3;
 			remoteInfo = AmazingCard;
 		};
+		3E446C2E221AA0AA0083079E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3E2CC1D621B814F900273EC3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3E446C24221AA0AA0083079E;
+			remoteInfo = AmazingCardShareExtension;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3E446C34221AA0AA0083079E /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				3E446C30221AA0AA0083079E /* AmazingCardShareExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		19B80172F905FA030FCBA7B3 /* libPods-AmazingCard.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AmazingCard.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -76,6 +101,15 @@
 		3E2CC22921B8196300273EC3 /* ACDevice.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ACDevice.h; sourceTree = "<group>"; };
 		3E2CC22A21B8196300273EC3 /* ACDevice.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ACDevice.m; sourceTree = "<group>"; };
 		3E2CC22C21B81B7700273EC3 /* BFENumbers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BFENumbers.h; sourceTree = "<group>"; };
+		3E446C25221AA0AA0083079E /* AmazingCardShareExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = AmazingCardShareExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E446C27221AA0AA0083079E /* ShareViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShareViewController.h; sourceTree = "<group>"; };
+		3E446C28221AA0AA0083079E /* ShareViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShareViewController.m; sourceTree = "<group>"; };
+		3E446C2B221AA0AA0083079E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		3E446C2D221AA0AA0083079E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E446C35221AA6780083079E /* AmazingCard.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AmazingCard.entitlements; sourceTree = "<group>"; };
+		3E446C36221AA6860083079E /* AmazingCardShareExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AmazingCardShareExtension.entitlements; sourceTree = "<group>"; };
+		3E446C37221AB2400083079E /* ImagePicker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImagePicker.h; sourceTree = "<group>"; };
+		3E446C38221AB2400083079E /* ImagePicker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImagePicker.m; sourceTree = "<group>"; };
 		3EA1403721BEAE3C0040B488 /* amazingCard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = amazingCard.png; sourceTree = "<group>"; };
 		3EA58EEA21B824D8006B4951 /* ACEditViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ACEditViewController.h; sourceTree = "<group>"; };
 		3EA58EEB21B824D8006B4951 /* ACEditViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ACEditViewController.m; sourceTree = "<group>"; };
@@ -114,6 +148,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		3E446C22221AA0AA0083079E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -132,6 +173,7 @@
 				3E2CC1E021B814F900273EC3 /* AmazingCard */,
 				3E2CC1F921B814F900273EC3 /* AmazingCardTests */,
 				3E2CC20421B814F900273EC3 /* AmazingCardUITests */,
+				3E446C26221AA0AA0083079E /* AmazingCardShareExtension */,
 				3E2CC1DF21B814F900273EC3 /* Products */,
 				1DF28D7E2B35F9BA4D45C9A0 /* Pods */,
 				7103CD51E0D2DE03B7F271A8 /* Frameworks */,
@@ -144,6 +186,7 @@
 				3E2CC1DE21B814F900273EC3 /* AmazingCard.app */,
 				3E2CC1F621B814F900273EC3 /* AmazingCardTests.xctest */,
 				3E2CC20121B814F900273EC3 /* AmazingCardUITests.xctest */,
+				3E446C25221AA0AA0083079E /* AmazingCardShareExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -151,6 +194,7 @@
 		3E2CC1E021B814F900273EC3 /* AmazingCard */ = {
 			isa = PBXGroup;
 			children = (
+				3E446C35221AA6780083079E /* AmazingCard.entitlements */,
 				3E2CC22821B8193B00273EC3 /* Common */,
 				3E2CC22621B8181F00273EC3 /* HeaderFiles */,
 				3E2CC21421B815A700273EC3 /* BaseClass */,
@@ -236,8 +280,22 @@
 			children = (
 				3E2CC22921B8196300273EC3 /* ACDevice.h */,
 				3E2CC22A21B8196300273EC3 /* ACDevice.m */,
+				3E446C37221AB2400083079E /* ImagePicker.h */,
+				3E446C38221AB2400083079E /* ImagePicker.m */,
 			);
 			path = Common;
+			sourceTree = "<group>";
+		};
+		3E446C26221AA0AA0083079E /* AmazingCardShareExtension */ = {
+			isa = PBXGroup;
+			children = (
+				3E446C36221AA6860083079E /* AmazingCardShareExtension.entitlements */,
+				3E446C27221AA0AA0083079E /* ShareViewController.h */,
+				3E446C28221AA0AA0083079E /* ShareViewController.m */,
+				3E446C2A221AA0AA0083079E /* MainInterface.storyboard */,
+				3E446C2D221AA0AA0083079E /* Info.plist */,
+			);
+			path = AmazingCardShareExtension;
 			sourceTree = "<group>";
 		};
 		3EA58EE921B824AF006B4951 /* Edit */ = {
@@ -290,10 +348,12 @@
 				3E2CC1DB21B814F900273EC3 /* Frameworks */,
 				3E2CC1DC21B814F900273EC3 /* Resources */,
 				F689C0024E6529B8B07859DD /* [CP] Copy Pods Resources */,
+				3E446C34221AA0AA0083079E /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				3E446C2F221AA0AA0083079E /* PBXTargetDependency */,
 			);
 			name = AmazingCard;
 			productName = AmazingCard;
@@ -336,6 +396,23 @@
 			productReference = 3E2CC20121B814F900273EC3 /* AmazingCardUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		3E446C24221AA0AA0083079E /* AmazingCardShareExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E446C31221AA0AA0083079E /* Build configuration list for PBXNativeTarget "AmazingCardShareExtension" */;
+			buildPhases = (
+				3E446C21221AA0AA0083079E /* Sources */,
+				3E446C22221AA0AA0083079E /* Frameworks */,
+				3E446C23221AA0AA0083079E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AmazingCardShareExtension;
+			productName = AmazingCardShareExtension;
+			productReference = 3E446C25221AA0AA0083079E /* AmazingCardShareExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -347,6 +424,11 @@
 				TargetAttributes = {
 					3E2CC1DD21B814F900273EC3 = {
 						CreatedOnToolsVersion = 10.1;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 					3E2CC1F521B814F900273EC3 = {
 						CreatedOnToolsVersion = 10.1;
@@ -355,6 +437,14 @@
 					3E2CC20021B814F900273EC3 = {
 						CreatedOnToolsVersion = 10.1;
 						TestTargetID = 3E2CC1DD21B814F900273EC3;
+					};
+					3E446C24221AA0AA0083079E = {
+						CreatedOnToolsVersion = 10.1;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -374,6 +464,7 @@
 				3E2CC1DD21B814F900273EC3 /* AmazingCard */,
 				3E2CC1F521B814F900273EC3 /* AmazingCardTests */,
 				3E2CC20021B814F900273EC3 /* AmazingCardUITests */,
+				3E446C24221AA0AA0083079E /* AmazingCardShareExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -399,6 +490,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E446C23221AA0AA0083079E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E446C2C221AA0AA0083079E /* MainInterface.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -431,18 +530,12 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-AmazingCard/Pods-AmazingCard-resources.sh",
 				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
-				"${PODS_CONFIGURATION_BUILD_DIR}/MWPhotoBrowser/MWPhotoBrowser.bundle",
-				"${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle",
-				"${PODS_ROOT}/SWSnapshotStackView/Screenshot.png",
-				"${PODS_ROOT}/SWSnapshotStackView/ScreenshotDemo.png",
+				"${PODS_ROOT}/TZImagePickerController/TZImagePickerController/TZImagePickerController/TZImagePickerController.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MWPhotoBrowser.bundle",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SVProgressHUD.bundle",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Screenshot.png",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ScreenshotDemo.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TZImagePickerController.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -461,6 +554,7 @@
 				3EF1632621C3A93A00D54C73 /* ACResultViewController.m in Sources */,
 				3E2CC1F121B814F900273EC3 /* main.m in Sources */,
 				3EA58EEC21B824D8006B4951 /* ACEditViewController.m in Sources */,
+				3E446C39221AB2400083079E /* ImagePicker.m in Sources */,
 				3E1238B721BFCF1F00E095A3 /* ACEditViewController+Brush.m in Sources */,
 				3E2CC21F21B815A700273EC3 /* BaseViewController.m in Sources */,
 				3E2CC1E321B814F900273EC3 /* AppDelegate.m in Sources */,
@@ -489,6 +583,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		3E446C21221AA0AA0083079E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E446C29221AA0AA0083079E /* ShareViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -502,7 +604,23 @@
 			target = 3E2CC1DD21B814F900273EC3 /* AmazingCard */;
 			targetProxy = 3E2CC20221B814F900273EC3 /* PBXContainerItemProxy */;
 		};
+		3E446C2F221AA0AA0083079E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3E446C24221AA0AA0083079E /* AmazingCardShareExtension */;
+			targetProxy = 3E446C2E221AA0AA0083079E /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3E446C2A221AA0AA0083079E /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3E446C2B221AA0AA0083079E /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		3E2CC20821B814F900273EC3 /* Debug */ = {
@@ -624,10 +742,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = NO;
 				CLANG_WARN_STRICT_PROTOTYPES = NO;
+				CODE_SIGN_ENTITLEMENTS = AmazingCard/AmazingCard.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=*]" = "iPhone Developer";
-				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = B487DW2XY8;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W7TAXX2A62;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/AmazingCard/AmazingCard.pch";
 				INFOPLIST_FILE = AmazingCard/Info.plist;
@@ -636,10 +755,10 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.boxfishedu.student;
+				PRODUCT_BUNDLE_IDENTIFIER = com.demo.test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "3e3aa1fc-2eb6-4572-8668-41c00e26c53b";
-				PROVISIONING_PROFILE_SPECIFIER = boxfisheduStudentDevelopment;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -651,10 +770,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = NO;
 				CLANG_WARN_STRICT_PROTOTYPES = NO;
+				CODE_SIGN_ENTITLEMENTS = AmazingCard/AmazingCard.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=*]" = "iPhone Developer";
-				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = B487DW2XY8;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W7TAXX2A62;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/AmazingCard/AmazingCard.pch";
 				INFOPLIST_FILE = AmazingCard/Info.plist;
@@ -663,10 +783,10 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.boxfishedu.student;
+				PRODUCT_BUNDLE_IDENTIFIER = com.demo.test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "3e3aa1fc-2eb6-4572-8668-41c00e26c53b";
-				PROVISIONING_PROFILE_SPECIFIER = boxfisheduStudentDevelopment;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -745,6 +865,50 @@
 			};
 			name = Release;
 		};
+		3E446C32221AA0AA0083079E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = AmazingCardShareExtension/AmazingCardShareExtension.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=*]" = "iPhone Developer: 琦 杨 (T87ZSVU6FQ)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W7TAXX2A62;
+				INFOPLIST_FILE = AmazingCardShareExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.demo.test.AmazingCardShareExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3E446C33221AA0AA0083079E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = AmazingCardShareExtension/AmazingCardShareExtension.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=*]" = "iPhone Developer: 琦 杨 (T87ZSVU6FQ)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W7TAXX2A62;
+				INFOPLIST_FILE = AmazingCardShareExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.demo.test.AmazingCardShareExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -780,6 +944,15 @@
 			buildConfigurations = (
 				3E2CC21121B814F900273EC3 /* Debug */,
 				3E2CC21221B814F900273EC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3E446C31221AA0AA0083079E /* Build configuration list for PBXNativeTarget "AmazingCardShareExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E446C32221AA0AA0083079E /* Debug */,
+				3E446C33221AA0AA0083079E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

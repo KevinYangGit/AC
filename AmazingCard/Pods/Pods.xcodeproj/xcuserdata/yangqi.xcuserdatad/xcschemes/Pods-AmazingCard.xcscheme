@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "55E1267893CD99ABDA4B5D69DB18AC42"
+               BlueprintIdentifier = "142E40DB42D0CA34C7289AFE1DC5E232"
                BlueprintName = "Pods-AmazingCard"
                ReferencedContainer = "container:Pods.xcodeproj"
                BuildableName = "libPods-AmazingCard.a">

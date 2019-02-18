@@ -11,5 +11,6 @@
 @interface ACEditViewController (CTX)
 
 - (void)ctx;
+- (void)ctxImage:(UIImage *)image;
 
 @end

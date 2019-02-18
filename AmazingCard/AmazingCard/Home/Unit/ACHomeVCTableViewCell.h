@@ -12,6 +12,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface ACHomeVCTableViewCell : UITableViewCell
 
+@property (nonatomic, strong) UIImage *mainImage;
 @property (nonatomic, copy) void(^containterTapAction)();
 
 @end

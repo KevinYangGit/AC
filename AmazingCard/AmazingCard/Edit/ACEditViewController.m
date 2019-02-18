@@ -9,11 +9,12 @@
 #import "ACEditViewController.h"
 #import "ACEditViewController+Circle.h"
 #import "ACEditViewController+Brush.h"
-
+#import "ACEditViewController+CTX.h"
 
 @interface ACEditViewController ()
 
 @property (nonatomic, assign) ACEditViewControllerType type;
+@property (nonatomic, copy) NSArray *lines;
 
 @end
 
@@ -32,14 +33,14 @@
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor whiteColor];
     
-    if (self.type == ACEditViewControllerType_Circle) {
-        [self circle];
-    }
-    if (self.type == ACEditViewControllerType_Brush) {
-        [self brush];
-    }
+//    if (self.type == ACEditViewControllerType_Circle) {
+//        [self circle];
+//    }
+//    if (self.type == ACEditViewControllerType_Brush) {
+//        [self brush];
+//    }
+    
+    [self ctx];
 }
-
-
 
 @end

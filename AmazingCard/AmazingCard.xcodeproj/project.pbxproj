@@ -21,6 +21,8 @@
 		3E2CC22B21B8196300273EC3 /* ACDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E2CC22A21B8196300273EC3 /* ACDevice.m */; };
 		3EA1403821BEAE3C0040B488 /* amazingCard.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EA1403721BEAE3C0040B488 /* amazingCard.png */; };
 		3EA58EEC21B824D8006B4951 /* ACEditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EA58EEB21B824D8006B4951 /* ACEditViewController.m */; };
+		3EEEFBEB21C79E1E00E29B0E /* ACEditViewController+CTX.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EEEFBEA21C79E1E00E29B0E /* ACEditViewController+CTX.m */; };
+		3EEEFBEE21C7A40F00E29B0E /* ACImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EEEFBED21C7A40F00E29B0E /* ACImageView.m */; };
 		3EF1632321C3A17900D54C73 /* ACImageVIewContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EF1632221C3A17900D54C73 /* ACImageVIewContainer.m */; };
 		3EF1632621C3A93A00D54C73 /* ACResultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EF1632521C3A93A00D54C73 /* ACResultViewController.m */; };
 		638DF65C78FD39557CD11C1B /* libPods-AmazingCard.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19B80172F905FA030FCBA7B3 /* libPods-AmazingCard.a */; };
@@ -77,6 +79,10 @@
 		3EA1403721BEAE3C0040B488 /* amazingCard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = amazingCard.png; sourceTree = "<group>"; };
 		3EA58EEA21B824D8006B4951 /* ACEditViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ACEditViewController.h; sourceTree = "<group>"; };
 		3EA58EEB21B824D8006B4951 /* ACEditViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ACEditViewController.m; sourceTree = "<group>"; };
+		3EEEFBE921C79E1E00E29B0E /* ACEditViewController+CTX.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ACEditViewController+CTX.h"; sourceTree = "<group>"; };
+		3EEEFBEA21C79E1E00E29B0E /* ACEditViewController+CTX.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "ACEditViewController+CTX.m"; sourceTree = "<group>"; };
+		3EEEFBEC21C7A40F00E29B0E /* ACImageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ACImageView.h; sourceTree = "<group>"; };
+		3EEEFBED21C7A40F00E29B0E /* ACImageView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ACImageView.m; sourceTree = "<group>"; };
 		3EF1632121C3A17900D54C73 /* ACImageVIewContainer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ACImageVIewContainer.h; sourceTree = "<group>"; };
 		3EF1632221C3A17900D54C73 /* ACImageVIewContainer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ACImageVIewContainer.m; sourceTree = "<group>"; };
 		3EF1632421C3A93A00D54C73 /* ACResultViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ACResultViewController.h; sourceTree = "<group>"; };
@@ -244,6 +250,8 @@
 				3E1238B921BFCF5500E095A3 /* ACEditViewController+Circle.m */,
 				3E1238B521BFCF1F00E095A3 /* ACEditViewController+Brush.h */,
 				3E1238B621BFCF1F00E095A3 /* ACEditViewController+Brush.m */,
+				3EEEFBE921C79E1E00E29B0E /* ACEditViewController+CTX.h */,
+				3EEEFBEA21C79E1E00E29B0E /* ACEditViewController+CTX.m */,
 				3EF1632421C3A93A00D54C73 /* ACResultViewController.h */,
 				3EF1632521C3A93A00D54C73 /* ACResultViewController.m */,
 			);
@@ -256,6 +264,8 @@
 				3EA1403721BEAE3C0040B488 /* amazingCard.png */,
 				3EF1632121C3A17900D54C73 /* ACImageVIewContainer.h */,
 				3EF1632221C3A17900D54C73 /* ACImageVIewContainer.m */,
+				3EEEFBEC21C7A40F00E29B0E /* ACImageView.h */,
+				3EEEFBED21C7A40F00E29B0E /* ACImageView.m */,
 			);
 			path = Unit;
 			sourceTree = "<group>";
@@ -446,6 +456,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3EEEFBEE21C7A40F00E29B0E /* ACImageView.m in Sources */,
 				3E2CC22021B815A700273EC3 /* BaseTableView.m in Sources */,
 				3EF1632621C3A93A00D54C73 /* ACResultViewController.m in Sources */,
 				3E2CC1F121B814F900273EC3 /* main.m in Sources */,
@@ -453,6 +464,7 @@
 				3E1238B721BFCF1F00E095A3 /* ACEditViewController+Brush.m in Sources */,
 				3E2CC21F21B815A700273EC3 /* BaseViewController.m in Sources */,
 				3E2CC1E321B814F900273EC3 /* AppDelegate.m in Sources */,
+				3EEEFBEB21C79E1E00E29B0E /* ACEditViewController+CTX.m in Sources */,
 				3E1238BA21BFCF5500E095A3 /* ACEditViewController+Circle.m in Sources */,
 				3EF1632321C3A17900D54C73 /* ACImageVIewContainer.m in Sources */,
 				3E2CC22121B815A700273EC3 /* ACHomeVCTableViewCell.m in Sources */,

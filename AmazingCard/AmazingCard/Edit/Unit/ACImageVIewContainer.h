@@ -16,5 +16,7 @@
 - (instancetype)initWithFrame:(CGRect)frame image:(UIImage *)image;
 - (UIImage *)getImageInBrushByRect:(CGRect)rect;
 - (void)clip;
+- (void)brush:(NSArray *)pointsArray;
+- (UIImage *)getSmallImage;
 
 @end

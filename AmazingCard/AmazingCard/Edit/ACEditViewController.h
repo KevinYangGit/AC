@@ -39,6 +39,7 @@ static CGFloat offset = 20;
 @property (nonatomic, assign) CGPoint startP;
 @property (nonatomic, assign) CGPoint curP;
 
+
 - (instancetype)initWithType:(ACEditViewControllerType)type;
 
 @end
